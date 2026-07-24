@@ -43,6 +43,7 @@ Image Models:
     - Reverse Distillation (:class:`anomalib.models.image.ReverseDistillation`)
     - STFPM (:class:`anomalib.models.image.Stfpm`)
     - SuperSimpleNet (:class:`anomalib.models.image.Supersimplenet`)
+    - SuperADD (:class:`anomalib.models.image.SuperADD`)
     - UFlow (:class:`anomalib.models.image.Uflow`)
     - UniNet (:class:`anomalib.models.image.UniNet`)
     - VLM-AD (:class:`anomalib.models.image.VlmAd`)
@@ -88,6 +89,7 @@ from .image import (
     Patchflow,
     ReverseDistillation,
     Stfpm,
+    SuperADD,
     Supersimplenet,
     Uflow,
     UniNet,
@@ -136,6 +138,7 @@ __all__ = [
     "Patchflow",
     "ReverseDistillation",
     "Stfpm",
+    "SuperADD",
     "Supersimplenet",
     "Uflow",
     "UniNet",
